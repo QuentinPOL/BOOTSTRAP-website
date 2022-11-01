@@ -1,5 +1,11 @@
+<!--
+    Formulaire de contact
+    01/11/2022
+    Quentin POLLET
+-->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -17,7 +23,7 @@
         <link href="css/contact.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation (Navbar)-->
+        <!-- (Navbar) -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">La Providence</a>
@@ -57,6 +63,7 @@
                                 <label for="name">Nom</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">Un nom est requis</div>
                             </div>
+
                             <!-- Saisi Adresse-mail -->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
@@ -64,18 +71,21 @@
                                 <div class="invalid-feedback" data-sb-feedback="email:required">Une adresse mail est requise</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email non valide</div>
                             </div>
-                            <!-- Saisi Numéro Téléphone-->
+
+                            <!-- Saisi Age -->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="+33 6 61 49 28 74" data-sb-validations="required" />
-                                <label for="phone">Numéro de téléphone</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Un numéro de téléphone est requis</div>
+                                <input class="form-control" id="age" type="text" placeholder="Entrer votre age..." data-sb-validations="required" />
+                                <label for="age">Age</label>
+                                <div class="invalid-feedback" data-sb-feedback="age:required">Un age est requis</div>
                             </div>
-                            <!-- Saisi Message-->
+
+                            <!-- Saisi Sexe -->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Entrer votre messahe ici..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Un message est requis</div>
+                                <input class="form-control" id="sex" type="text" placeholder="Entrer votre sexe..." data-sb-validations="required" />
+                                <label for="sex">Sexe</label>
+                                <div class="invalid-feedback" data-sb-feedback="sex:required">Un sexe est requis</div>
                             </div>
+
                             <!-- Envoie réussi-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
