@@ -303,7 +303,7 @@ svg {
 }
 
 table {
-  width: 200px;
+  caption-side: bottom;
   border-collapse: collapse;
 }
 
@@ -314,10 +314,20 @@ caption {
   text-align: left;
 }
 
+th {
+  text-align: inherit;
+  text-align: -webkit-match-parent;
+}
 
-td, th{
-  text-align: center;
-  border-collapse: collapse;
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
 }
 
 label {
@@ -11343,13 +11353,13 @@ hr.divider-light {
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    background-color: transparent;
+    background-color: #212529;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: black;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
@@ -11445,4 +11455,16 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+img.mosaique
+{
+  width: 190px;
+  height: 190px;
+  margin-top: 20px;
+}
+
+p#description
+{
+  padding-top: 80px;
 }
