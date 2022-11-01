@@ -11457,7 +11457,7 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
-iframe#youtube{
+iframe#taille{
   width: 560px;
   height: 330px;
 }
@@ -11465,8 +11465,8 @@ iframe#youtube{
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 650px */
 @media screen and (max-width: 650px)
 {
-  iframe#youtube{
-    width: 400px;
+  iframe#taille{
+    width: 350px;
     height: 330px;
   }
 }
