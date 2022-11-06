@@ -224,3 +224,12 @@ div#div-body{
         color: #636162;
         padding-top: 10px;
     }
+
+
+    /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (max-width: 1024px)
+{
+    div#principale{
+        margin-left: 175px;
+    }
+}
